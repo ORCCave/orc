@@ -1,8 +1,8 @@
 # ORC
 
-[![Linux Build](https://github.com/ORCCave/orc/actions/workflows/build.yml/badge.svg?branch=main&job=build-linux)](https://github.com/ORCCave/orc/actions/workflows/build.yml)
+[![windows](https://github.com/ORCCave/ORC/actions/workflows/windows.yml/badge.svg)](https://github.com/ORCCave/ORC/actions/workflows/windows.yml)
 
-[![Windows Build](https://github.com/ORCCave/orc/actions/workflows/build.yml/badge.svg?branch=main&job=build-windows)](https://github.com/ORCCave/orc/actions/workflows/build.yml)
+[![linux](https://github.com/ORCCave/ORC/actions/workflows/windows.yml/badge.svg)](https://github.com/ORCCave/ORC/actions/workflows/linux.yml)
 
 ORC(Object-Oriented Rendering Component)
 
