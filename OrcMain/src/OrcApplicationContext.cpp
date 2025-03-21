@@ -31,7 +31,6 @@ namespace Orc
     {
 		delete pimpl;
 		pimpl = nullptr;
-
         SDL_DestroyWindow((SDL_Window*)mWindowHandle);
     }
 }
