@@ -2,7 +2,7 @@
 
 int main()
 {
-    Orc::ApplicationContext ctx("OrcWindow", 1200, 600);
+    Orc::ApplicationContext ctx("OrcWindow", 800, 600);
     ctx.initApp();
     Orc::Root* root = ctx.getRoot();
     Orc::GraphicsDevice* device = root->createGraphicsDevice(Orc::GraphicsDevice::GDT_D3D12);
