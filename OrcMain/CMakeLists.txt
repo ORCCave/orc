@@ -8,4 +8,6 @@ target_link_libraries(OrcMain PRIVATE SDL3::SDL3)
 
 if(WIN32)
 	target_compile_definitions(OrcMain PUBLIC ORC_PLATFORM=ORC_PLATFORM_WIN32)
+elseif(UNIX AND NOT APPLE)
+	target_compile_definitions(OrcMain PUBLIC ORC_PLATFORM=ORC_PLATFORM_LINUX)
 endif()
